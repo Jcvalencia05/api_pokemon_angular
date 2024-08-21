@@ -21,12 +21,15 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              "src/favicon.ico",
+              "src/assets/images/github-icon.svg",
               {
                 "glob": "**/*",
                 "input": "public"
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/magenta-violet.css",
               "src/styles.css"
             ],
             "scripts": [],
@@ -84,12 +87,15 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
+              "src/favicon.ico",
+              "src/assets/images/github-icon.svg",
               {
                 "glob": "**/*",
                 "input": "public"
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/magenta-violet.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -97,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d4e2ffdb-04f3-4a07-88f0-2cc9d5185280"
   }
 }
